@@ -1,0 +1,58 @@
+.menuChild {
+  padding: 10px;
+}
+.menuChildActive {
+  padding: 10px;
+  border-bottom: 3px solid #333;
+}
+.slide {
+  padding: 0;
+  min-height: 100px;
+  color: #fff;
+}
+.slide1 {
+  background-color: #FFF;
+}
+.containerSwipe {
+  display: flex;
+  flex: 1
+}
+.tab {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  min-height: 32px;
+}
+.productRelative {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+/* ----- start */
+.tab {
+  background-color: #fff;
+}
+.menuChild {
+  display: inline-table;
+  cursor: pointer;
+  color: #333;
+}
+.menuChild :hover {
+	cursor: pointer;
+  color: #333;
+}
+.menuChildActive {
+  display: inline-table;
+  cursor: pointer;
+  color: #333;
+}
+.menuChildActive :hover {
+	cursor: pointer;
+  color: #333;
+}
+@media (min-width: 980px) {
+  .tab {
+    overflow: hidden;
+  }
+}
+/* ----- end */

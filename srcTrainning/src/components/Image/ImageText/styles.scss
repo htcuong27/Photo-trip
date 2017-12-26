@@ -1,0 +1,36 @@
+.fillImage{
+	height: 90px;
+}
+.imageCir{
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	align-items: center;
+	padding-bottom: 3px;
+
+}
+.container{
+	border: 1px solid gray;
+	width: 90px;
+	height: 144px;
+	border-radius: 4px;
+	padding-bottom: 5px;
+	position: relative;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.bottom_image{
+	font-size: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 6px;
+	right: 6px;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.underImage{
+	background: white;
+}

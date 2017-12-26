@@ -1,0 +1,51 @@
+.productList {
+	flex: 1;
+}
+.ViewCard {
+	background-color: #fff;
+	box-shadow: 0 1px 2px #bbb;
+	position: relative;
+	border-radius: 4px;
+	flex: 1;
+	margin: 5px;
+}
+.ViewCirkeBorder {
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-right: 10px;
+}
+.ViewCirkeBg {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: block;
+}
+.ViewCardTitle {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	background-color: #fff; 
+}
+.TitleSpan {
+	text-transform: uppercase;
+	font-weight: bold; 
+}
+.btnCard {
+	height: 36px;
+	justify-content: center;
+	align-items: center;
+}
+/* ----- start */
+.btnCard i {
+	color: rgba(0,0,0,0.54);
+}
+/* ----- end */

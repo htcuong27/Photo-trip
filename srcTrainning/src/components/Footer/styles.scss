@@ -1,0 +1,193 @@
+.footerContent {
+  flex: 1;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  background: #ECF0F1;
+}
+.spanSplash {
+  color: #fff;
+  margin: 0px 5px;
+}
+.footerContentTop {
+  display: flex;
+  flex-direction: row;
+}
+.footerContentMid {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerContentBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tongDai {
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+}
+.daThongBao {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+.col8 {
+  display: flex;
+  flex-direction: row;
+  flex: 8;
+}
+.col4 {
+  display: flex;
+  flex:4;
+  flex-direction: column;
+  overflow: hidden;
+}
+.titleApp {
+  font-size: 31px;
+  margin: 10px 0;
+  display: block;
+}
+.appDownloadButtons {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.appLink {
+  display: flex;
+  padding: 0 10px;
+}
+.titleFooter {
+  font-weight: 800;
+  border-bottom: 1px solid #CCC;
+  display: block;
+  padding-bottom: 11px;
+  margin-bottom: 11px;
+  margin-right: 10px;	
+}
+.ViewUl {
+  justify-content: space-around;
+}
+.span {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px; 
+}
+.SloganUmbala {
+  max-width: 100px;
+}
+.socialIcons {
+  display: flex;
+  padding: 2px 5px;
+  margin-right: 3px; 
+}
+.divSocial {
+  display: flex;
+  flex-direction: row;
+}
+.imgFooterContent {
+  max-width: 180px;
+  /* ----- start */
+  width: 100%;
+  /* ----- end */
+  display: flex;
+  flex: 1;
+  align-self: center;
+}
+.About {
+  text-align: center;
+  padding: 0 10px;
+  display: block;
+}
+/* ----- start */
+.divSocial a {
+  color: #333;
+  padding: 5px 10px;
+}
+/* ----- end */
+
+
+/* mobile */
+.headerFooter {
+  border-bottom: 1px solid #C2C2C2;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.ContentChild {
+  background-color: #dbdde3;
+}
+.ContentChildList {
+  padding: 5px;
+}
+.footerLienHe {
+  padding: 5px 15px;
+  background: #5a5757;
+  flex-direction: row;
+  display: flex;
+  flex: 1;
+}
+.Phone {
+  color: #dbdde3;
+  font-size: 16px; 
+}
+.phoneDomain {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+.timeDomain {
+  font-size: 12px;
+  color: #fff;
+}
+.footerCopyRight {
+  color: #fff;
+  background-color: #000;
+  font-size: 11px;
+  padding: 5px;
+  text-align: center;
+}
+.FontFooter {
+  font-family: ProximaNova-Light;
+}
+.IconFooter {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.IconDropDown {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----- start */
+.IconDropDown {
+  text-align: center;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .headerFooter a span {
+    color: #444;
+  }
+  .headerFooter {
+    display: flex;
+  }
+  .footerCopyRight {
+    width: 100%;
+    display: block;
+  }
+  .footerLienHe button {
+    background-color: transparent;
+  }
+}
+a {
+  color: #000;
+}
+/* ----- end */

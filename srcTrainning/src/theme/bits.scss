@@ -1,0 +1,25 @@
+/* ----- start */
+@mixin breakpoint($point) {
+  @if $point == desktoplarge {
+     @media (min-width: 1190px)  { @content ; }
+  }
+  @else if $point == desktop {
+     @media (min-width: 960px) { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (min-width: 768px) and (max-width: 1190px) { @content ; }
+  }
+}
+
+@mixin object-fit($fit: fill, $position: null){
+  -o-object-fit: $fit;
+     object-fit: $fit;
+  @if $position {
+    -o-object-position: $position;
+       object-position: $position;
+    font-family: 'object-fit: #{$fit}; object-position: #{$position}';
+  } @else {
+    font-family: 'object-fit: #{$fit}';
+  }
+}
+/* ----- end */

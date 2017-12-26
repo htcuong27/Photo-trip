@@ -1,0 +1,27 @@
+@import '../variables.scss';
+.whiteTooltip {
+  background-color: '#fff';
+  .pui-tooltip-inner {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12), 0px 8px 8px 0px rgba(0,0,0,0.24);
+  }
+  .pui-tooltip-caret {
+    border-bottom-color: #fff;
+  }
+}
+
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+.leaflet-top, .leaflet-bottom {
+  z-index: 100 !important;
+}
+
+.leaflet-container {
+  background: #fff !important;
+}
+
+.tether-element {
+  z-index: $highestZIndex;
+}

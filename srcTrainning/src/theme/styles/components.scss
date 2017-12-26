@@ -1,0 +1,62 @@
+@import '../variables.scss';
+@import '../bits.scss';
+
+.noMargin {
+  margin: 0 !important;
+}
+
+.noPadding {
+  padding: 0 !important;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  &:hover {
+    color: inherit;
+    opacity: 0.87;
+  }
+}
+
+ul.noStyle {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+strong {
+  font-family: ProximaNovaSemiBold;
+}
+
+dt, dd {
+  margin: 0;
+}
+
+.hoverableShadow {
+  &:hover {
+    box-shadow: $float-shadow;
+  }
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  &.nowrap {
+    flex-flow: row nowrap;
+  }
+  &.space-between {
+    justify-content: space-between;
+  }
+}
+
+.flex-col {
+  display: flex;
+  flex-flow: col wrap;
+  &.nowrap {
+    flex-flow: col nowrap;
+  }
+  &.space-between {
+    justify-content: space-between;
+  }
+}
+

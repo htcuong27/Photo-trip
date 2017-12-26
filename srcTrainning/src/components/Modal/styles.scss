@@ -1,0 +1,292 @@
+
+.ViewModalApp {
+  width: 200px;
+  background-color: #fff;
+  bottom: 70px;
+  right: 20px;
+  position: absolute;
+}
+.NameListView {
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex: 1;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.btnCloseFillter {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+.ViewContentTop {
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+.triangleUp {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #ee4054;
+	z-index: 2;
+	position: absolute;
+	top: -10px;
+}
+.ModalNotiDeleteChat {
+  flex: 1;
+}
+.ViewNotiBuyCart {
+	flex: 1; 
+	background-color: #ee0054;
+}
+.ViewTitleNotiBuy { 
+	flex: 1; 
+	align-items: center;
+	justify-content: center;
+  display: flex;
+  margin-bottom: 10px; 
+}
+.ViewTxtTitleNotiBuy {
+	color: #FFF; 
+	text-align: center;
+	font-size: 16px;
+}
+.ViewContentNotiImg {
+	flex: 5;
+	justify-content: center; 
+	align-items: center;
+}
+.ViewImgNoti {
+	width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #FFF;
+  justify-content: center;
+  display: flex;
+}
+.ViewImgSucess {
+	width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
+.ViewTxtContinew{
+  border:1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-color: transparent;
+  background-color: #FFF;
+  justify-content: center;
+  display: flex;
+}
+.ViewTxtSpan {
+	 color: #F21848;
+	 text-align: center;
+	 font-size: 20px;
+}
+.btnCloseFillterImageZoom {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+.ViewTxtSpanSeel {
+	color: #fff;
+}
+.ViewSeeBill{
+  border:1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-color: transparent;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+}
+.bodyNeedHelp {
+	background-color: #ee4054;
+	margin-top: 11px;
+}
+.titleNeedHelp {
+	flex-direction: row;
+	margin-top: 1px;
+	background-color: rgba(0,0,0,0.24);
+	align-items: center;
+	justify-content: flex-start;
+	padding: 10px 5px; 
+}
+.ContentNeedHelp {
+	margin-left: 20px;
+  padding: 10px 0px;
+}
+.btnConfirmNeedHelp {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #de142b;
+}
+.ButtonConfirmNeedHelp {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #de142b;
+}
+.ButtonConfirm {
+  background-color: #ee4054;
+}
+.ModalContentNotiDeleteChat {
+  background-color: #fff;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btnConfirm {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+}
+.profitNumber {
+  font-weight: bold;
+  color: rgb(51, 122, 183);
+}
+.rowTime {
+  border-bottom: 1px solid #BFBFBF;
+  padding: 5px;
+}
+.DeliClose {
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 35px;
+  display: flex;
+  background-color: #009BFF;
+  color: #FFF
+}
+.ViewbtnClose {
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+}
+.btnCloseFillter {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  position: absolute;
+  right: -8px;
+  top: -6px;
+}
+/* ----- start */
+.btnCloseFillter i {
+  color: #ee4054;
+  font-size: 20px;
+}
+.btnCloseFillterImageZoom i {
+  color: #ee4054;
+}
+.bodyNeedHelp a {
+	display: block;
+}
+.ViewImgNoti {
+  margin: auto;
+}
+.titleNeedHelp {
+	display: block;
+	width: calc(100% - 10px);
+	color: #fff;
+	border-radius: 4px 4px 0px 0px;
+}
+.ButtonConfirmNeedHelp {
+	border: 0px;
+}
+.ContentNeedHelp a {
+	display: block;
+	cursor: pointer;
+	color: #fff;
+	padding: 10px 0px;
+}
+@media (min-width: 970px) {
+  .ButtonConfirm {
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    &:first-child {
+      margin-right: 5px; 
+    }
+    span {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+  .ImgProduct {
+    max-height: 100%;
+  }
+  .btnConfirm button {
+    border: 0px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 4px; 
+  }
+}
+.ButtonConfirm {
+  border: none;
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  &:first-child {
+    margin-right: 5px; 
+  }
+  span {
+    color: #fff;
+    font-size: 14px;
+  }
+}
+.InputPriceProfit {
+  top: 0px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 4px;
+  text-indent: 0px;
+  margin: 5px 0px;
+  width: calc(100% - 10px);
+}
+
+.ViewContentTop img {
+  width: 100%;
+  height: auto;
+}
+.ViewContentTop ul {
+  padding-left: 20px;
+}
+.ViewContentTop ul li{
+  list-style-type: disc !important;
+}
+
+.btnCloseFillter i {
+  color: #ee4054;
+  font-size: 20px;
+}
+/* ----- end */

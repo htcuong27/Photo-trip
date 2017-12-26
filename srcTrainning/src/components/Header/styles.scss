@@ -1,0 +1,681 @@
+/* mobile app */
+.MenuNav {
+  width: 45px;
+  height: 35px;
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.topBarInner {
+  flex-direction: row;
+}
+.IconBackWebMobile {
+  width: 35px;
+  height: 35px;
+  padding-top: 5px; 
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #de142b;
+}
+.navLeft {
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 1;
+}
+.navRight {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 5px;
+}
+.txtSpan {
+  color: #fff;
+}
+.imgreponsive {
+  width: 90px;
+  height: 35px;
+}
+.IconSearchMobile {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.cartPreview {
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.EmailLogin {
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.AccountMobile {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.Account {
+  flex-direction: row;
+}
+/* mobile app */
+.Viewheader {
+  border-bottom: 1px solid #dddddd;
+  background-color: #F7CC14;
+  flex-direction: row;
+  height: 36;
+}
+.textTitle {
+  font-family: ProximaNova-Light;
+  font-size: 18;
+  color: #030303;
+}
+.title {
+  align-items: center;
+  justify-content: center;
+  flex: 4
+}
+.iconLeft {
+  justify-content: center;
+  padding-left: 10;
+  flex: 1;
+}
+.iconRight {
+  justify-content: center;
+  flex: 2;
+  flex-direction: row;
+}
+.innerIconRight {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.itemIcon {
+  font-size: 16;
+  color: #000;
+}
+.CartNumber {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
+.colorIcon {
+  color: #fff;
+}
+.ResizeIcon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-width: 1;
+  border-radius: 3px;
+  background-color: rgba(238, 0, 84, 0.5);
+  padding-left:3px;
+  padding-right:3px;
+}
+.FontSizeCount {
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgba(238, 0, 84, 0.84);
+  padding-left:3px;
+  padding-right:3px;
+  line-height: 18px;
+  min-width: 10px;
+  text-align: center;
+  font-weight: 800;
+}
+.ImageLogo {
+  width: 100px;
+  height: 45px;
+}
+.colorIconClose {
+  color: #f00;
+  font-size: 40px;
+}
+.inputSearch {
+  flex: 1;
+  font-size: 12px;
+  top: 0px; 
+  color: #333;
+  font-family: ProximaNova-Light;
+}
+.InputSearch {
+  height: 35px;
+}
+.searchfrom {
+  background-color: #fff;
+  border-radius: 22px;
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 5px; 
+  line-height: 35px;
+  margin-top: 3px;
+  display: flex;
+  flex: 1;
+}
+.searchfromFocus {
+  background-color: #fff;
+  border-radius: 22px 22px 0px 0px;
+  height: 41px;
+  flex: 1;
+  margin-right: 10px;
+  line-height: 41px;
+  margin-top: 3px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.InputSearch {
+  flex: 1;
+  top: 0;
+  padding-left: 10px;
+}
+.needHelp {
+  padding: 0 14px;
+  position: relative;
+  border-left: 1px solid #de142b;
+}
+.cartPreview {
+  position: relative;
+}
+.Login {
+  padding: 0 14px;
+  position: relative;
+}
+.SignUp {
+  padding: 0 14px;
+  position: relative;
+  border-left: 1px solid #de142b;
+}
+/* ----- start */
+.InputSearch{
+  top: 0px;
+}
+.TooltipAccount {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px #bbb;
+  line-height: initial !important;
+}
+.TooltipAccount a {
+  color: #333;
+  padding: 5px 0px;
+  display: block;
+}
+.Tooltiplogout span {
+  color: #333;
+  padding: 5px 0px;
+  display: block;
+}
+.MenuNav {
+  display: none;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15000;
+  webkit-transition: -webkit-transform .25s ease;
+  -moz-transition: -moz-transform .25s ease;
+  -o-transition: -o-transform .25s ease;
+  -ms-transition: -ms-transform .25s ease;
+  transition: transform .25s ease;
+}
+.topBar {
+  width: 100%;
+  left: 0;
+  margin: 0;
+  clear: both;
+  background: #ee4054;
+  color: #fff;
+  height: 45px;
+  font-weight: 400;
+  font-size: .9em;
+  color: #fff;
+  line-height: 45px;
+  border-bottom: 1px solid #de142b;
+}
+.DotUser {
+  line-height: 40px;
+  border-left: 1px solid #de142b;
+  padding: 0px 10px;
+}
+.isMobile {
+  padding: 0 14px 0 0;
+  margin-top: 6px;
+  -o-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  will-change: transform;
+  float: left;
+}
+.topBarInner {
+  position: relative;
+  max-width: 1380px;
+  height: 45px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-flex;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.navLeft {
+  flex-grow: 1;
+  display: flex;
+}
+.logo {
+  width: 100px;
+  float: left;
+  margin-left: 10px;
+}
+.imgreponsive {
+  max-height: 100% !important;
+  max-width: 100% !important;
+  width: auto;
+  height: auto;
+  align-self: center;
+}
+.Account {
+  float: right;
+  border-left: 1px solid #de142b;
+}
+.AccountLogin {
+  float: right;
+  position: relative;
+}
+.cartPreview {
+  float: left;
+  height: 45px;
+  padding: 0 14px;
+  width: auto;
+  border-left: 1px solid #de142b;
+  line-height: 50px;
+  margin: 0px; 
+}
+.IconSearchMobile {
+  display: none;
+}
+.cartItemsCount {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  border:1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  background-color: rgba(238, 0, 84, 0.84);
+  padding-left:3px;
+  padding-right:3px;
+  height: 15px;
+  line-height: 18px;
+  text-align: center;
+  width: 15px;
+}
+.needHelp {
+  float: left;
+  cursor: pointer;
+}
+.needHelp a {
+  color: #fff;
+}
+.SignUp {
+  float: right;
+  cursor: pointer;
+}
+.Login {
+  float: right;
+  cursor: pointer;
+}
+.cartPreview a {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.AccountMobile {
+  display: none;
+}
+.EmailLogin {
+  padding: 0 14px;
+  position: relative;
+  float: left;
+  width: auto;
+  height: 45px;
+  line-height: 50px;
+  margin-right: 0px; 
+  border-left: 1px solid #de142b;
+  i {
+    color: #fff;
+  }
+}
+.searchfrom {
+  width: 100%;
+  margin-top: 5px;
+  span {
+    color: #333;
+    font-size: 16px;
+    margin-left: 10px; 
+  }
+  button {
+    border: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+.searchfromFocus {
+  width: 100%;
+  margin-top: 5px;
+  button {
+    border: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+.accountDropdown li a {
+  color: #fff;
+}
+.DotUser {
+  display: block;
+}
+.NavUser {
+  display: none;
+}
+.navRight {
+  padding-top: 0px;
+}
+.navLeft {
+  padding-top: 0px;
+}
+@media (max-width: 767px) {
+  .logo {
+    margin-left: 0px;
+    width: 100px;
+  }
+  .DotUser {
+    display: none;
+  }
+  .NavUser {
+    background-color: #fff;
+    display: flex;
+    height: 38px;
+    justify-content: center;
+  }
+  .colorSiver {
+    font-size: 11px;
+    align-self: center;
+  }
+  .MenuNav {
+    text-align: center;
+    height: 45px;
+    line-height: 50px;
+    padding-top: 0px;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15000;
+    webkit-transition: -webkit-transform .25s ease;
+    -moz-transition: -moz-transform .25s ease;
+    -o-transition: -o-transform .25s ease;
+    -ms-transition: -ms-transform .25s ease;
+    transition: transform .25s ease;
+  }
+  .topBar {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    clear: both;
+    background: #ee4054;
+    color: #fff;
+    height: 45px;
+    font-weight: 400;
+    font-size: .9em;
+    color: #fff;
+    line-height: 45px;
+    border-bottom: 1px solid #de142b;
+  }
+  .topBarInner {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+  }
+  .navLeft {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-box-flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-flex;
+    display: box;
+    display: flex;
+  }
+  .logo {
+    display: flex;
+  }
+  .imgreponsive {
+    width: 100px;
+  }
+  .Account {
+    display: none;
+  }
+  .cartPreview {
+    position: relative;
+    float: right;
+  }
+  .AccountMobile {
+    padding: 0 14px;
+    position: relative;
+    float: right;
+    display: block;
+    margin-right: 0px;
+    border-left: 1px solid #de142b;
+    width: auto;
+    height: 45px;
+    line-height: 50px;
+    a {
+      color: #fff;
+    }
+  }
+  .IconSearchMobile {
+    position: relative;
+    display: block;
+    float: right;
+    height: 45px;
+    width: auto;
+    line-height: 50px;
+    padding: 0px 14px;
+  }
+  .IconSearchMobile span {
+    padding: 0px 7px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .cartPreview a {
+    color: #fff;
+  }
+  .cartItemsCount {
+   font-size: 13px;
+    color: #fff;
+    position: absolute;
+    right: 3px;
+    top: 6px;
+    border:1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    background-color: rgba(238, 0, 84, 0.84);
+    padding-left:3px;
+    padding-right:3px;
+    height: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 15px;
+  }
+  .needHelp {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .isMobile {
+    display: none;
+  }
+  .MenuNav {
+    display: block;
+  }
+  .navRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isMobileActive {
+    display: block;
+    padding: 0px;
+    margin-top: 8px;
+    margin-left: 10px; 
+    -o-box-flex: 1;
+    -ms-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    will-change: transform;
+    float: left;
+  }
+  .EmailLogin {
+    text-align: center; 
+    position: relative;
+    i {
+      color: #fff;
+    }
+  }
+  .searchfrom {
+    display: none;
+  }
+  .SignUp {
+    border: none;
+  }
+  .Login {
+    padding: 0px;
+  }
+  .navRight i {
+    font-size: 18px !important;
+  }
+}
+.navLeft > div {
+  cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1190px) {
+  .MenuNav {
+    display: block !important;
+    text-align: center;
+    height: 45px;
+    margin-left: 5px;
+    line-height: 48px;
+    i {
+      font-size: 28px; 
+    }
+  }
+  .Account {
+    display: none;
+  }
+  .logo {
+    margin-left: 10px;
+    width: 100px;
+    margin-right: 10px; 
+  }
+  .AccountMobile {
+    display: block;
+    padding: 0 14px;
+    position: relative;
+    float: left;
+    width: auto;
+    height: 45px;
+    margin-right: 0px; 
+    border-left: 1px solid #de142b;
+    i {
+      color: #fff;
+    }
+  }
+  .needHelpDesktop .txtSpan {
+    display: none;
+  }
+  .needHelpDesktop i {
+    display: block !important;
+  }
+  .navRight i {
+    font-size: 24px !important;
+    line-height: inherit;
+  }
+  .navRight > div {
+    cursor: pointer;
+    height: 45px;
+    line-height: 55px !important;
+  }
+}
+.IconBackWebMobile {
+  height: 45px;
+  line-height: 50px;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #de142b;
+  padding-top: 0px;
+}
+.navRight i {
+  font-size: 28px;
+}
+.needHelpDesktop i {
+  display: none;
+}
+/* ----- end */

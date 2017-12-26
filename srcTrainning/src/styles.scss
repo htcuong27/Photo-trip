@@ -1,0 +1,44 @@
+.SpanInputLogin {
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+.titleCarts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.cartitemInfo {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee; 
+}
+.TxttitleProduct {
+	font-size: 12px;
+}
+/* ----- start */
+.ViewOrder {
+	background-color: #fff;
+	padding: 10px; 
+	button {
+		background-color: #ee4054;
+		border: none;
+		padding: 5px 10px;
+		span {
+			color: #fff;
+		}
+	}
+}
+.SpanInputLogin {
+	top: 0px;
+  text-indent: 0px;
+  height: auto;
+  padding: 5px;
+  width: 50%;
+  margin-right: 10px;
+}
+/* ----- end */

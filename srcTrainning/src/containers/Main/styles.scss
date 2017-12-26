@@ -1,0 +1,543 @@
+.layoutwapper {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+.mainMobile {
+  flex: 1;
+  overflow: hidden;
+}
+
+.mainWeb {
+  }
+/* ----- start */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15000;
+  webkit-transition: -webkit-transform .25s ease;
+  -moz-transition: -moz-transform .25s ease;
+  -o-transition: -o-transform .25s ease;
+  -ms-transition: -ms-transform .25s ease;
+  transition: transform .25s ease;
+}
+.topBar {
+  width: 100%;
+  left: 0;
+  margin: 0;
+  clear: both;
+  background: #ee4054;
+  color: #fff;
+  height: 45px;
+  font-weight: 400;
+  font-size: .9em;
+  color: #fff;
+  line-height: 45px;
+}
+/* ----- end */
+.topBarInner {
+  position: relative;
+  min-width: 985px;
+  height: 45px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.navLeft {
+  display: flex;
+}
+.logo {
+  width: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.imgreponsive {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.productSearch {
+  margin: 0;
+  text-transform: none;
+  position: relative;
+}
+.productSearchInner {
+  position: relative;
+  height: 32px;
+  background: #fff;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+  z-index: 2;
+}
+.navRight {
+  display: flex;
+}
+.cartPreview {
+  border-left: 1px solid #de142b;
+  padding: 0px 14px;
+}
+.needHelp {
+  border-left: 1px solid #de142b;
+  padding: 0px 14px;
+}
+.Account{
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.Login {
+  border-left: 1px solid #de142b;
+  padding: 0px 14px;
+}
+.SignUp {
+  border-left: 1px solid #de142b;
+  padding: 0px 14px;
+}
+.cardlink {
+  color: #fff;
+  text-decoration: none;
+}
+.ViewModalAccount {
+  position: absolute;
+  background-color: rgba(0,0,0,0.54);
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.productShelfMobile {
+  flex: 1;
+}
+.productShelfMobileSearch {
+  background-color: white;
+  flex: 1;
+  /* ----- start */
+  justify-content: center;
+  /* ----- end */
+  padding-top: 10px;
+}
+.productListMobile {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.SeeAllSearch {
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 35px;
+  display: flex;
+  background-color: #009BFF;
+  color: #FFF
+}
+.subCategory {
+  flex-direction: row;
+  display: flex;
+}
+.StyleModalMobile {
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  flex: 1;
+  z-index: 99999;
+}
+.NavUser {
+  padding: 5px;
+  background: #ECF0F1;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.borderLeft {
+  border-left: 1px solid #666;
+  padding: 0px 10px;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.colorSiver {
+  color: #666;
+  font-size: 10px;
+  font-family: ProximaNova-Light;
+}
+.nameUser {
+  font-size: 11px;
+  color: #000;
+  font-family: ProximaNova-Light;
+}
+
+.iconArrow {
+  position: absolute;
+  z-index: 9999999;
+  right: 10px;
+  width: 15px;
+  height: 9px;
+  bottom: 38px;
+}
+.SearhHeader {
+  flex: 1;
+}
+.ChatWithUmbala {
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+  background-color: #3da1f7;
+  padding: 5px 10px;
+  border-radius: 4px 4px 0px 0px;
+}
+.txtChat {
+  color: #fff;
+  font-size: 15px;
+}
+.NameListView {
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex: 1;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.btnCloseFillter {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+.btnAdd {
+  margin-left: 5px !important; 
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: #00bcd5;
+  border-radius:50px;
+  justify-content: center;
+  align-items: center;
+}
+.btnChatBox {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(238, 0, 84, 1);
+  border-radius:50px;
+  justify-content: center;
+  align-items: center;
+}
+.ViewModalApp {
+  width: 200px;
+  background-color: #fff;
+  bottom: 70px;
+  right: 20px;
+  position: absolute;
+}
+/* ----- start */
+.btnCloseFillter i {
+  color: #ee4054;
+  font-size: 20px;
+}
+.ChatWithUmbala {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  text-align: center;
+  font-size: 15px;
+  background: #3da1f7;
+  border-bottom: 1px solid #3da1f7;
+  background: linear-gradient(to bottom, #3da1f7 1%, #56aaf3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3da1f7', endColorstr='#56aaf3',GradientType=0 );
+  color: #fff;
+  border-radius: 3px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border: 0 solid transparent;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px 4px 0px 0px;
+}
+.btnChatBox {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(238, 0, 84, 1);
+  border-radius:50px;
+  line-height: 52px;
+  i {
+    color: #fff;
+    font-size: 24px;
+  } 
+}
+.btnAdd {
+  cursor: pointer;
+  margin-left: 5px !important; 
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: #00bcd5;
+  border-radius:50px;
+  line-height: 52px;
+  i {
+    color: #fff;
+    font-size: 24px;
+  }
+}
+.productListMobile {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15000;
+    webkit-transition: -webkit-transform .25s ease;
+    -moz-transition: -moz-transform .25s ease;
+    -o-transition: -o-transform .25s ease;
+    -ms-transition: -ms-transform .25s ease;
+    transition: transform .25s ease;
+  }
+  .topBar {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    clear: both;
+    background: #ee4054;
+    color: #fff;
+    height: 45px;
+    font-weight: 400;
+    font-size: .9em;
+    color: #fff;
+    line-height: 45px;
+    border-bottom: 1px solid #de142b;
+  }
+  .searchfrom input {
+    text-indent: 20px;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    background: transparent;
+    font-size: 18px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    width: 100%;
+    ;
+  }
+  
+  button {
+    border: 0px;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  a {
+    color: #000;
+  }
+  .subCategory {
+    overflow-x: scroll;
+  }
+  .ViewModalAccount {
+    background-color: #ee4054;
+  }
+  .ViewCloseModalAccount button {
+    margin: 10px 0px 0px 10px;
+    background-color: transparent;
+    padding: 5px 10px;
+  }
+  .ViewCloseModalAccount button i {
+    color: #fff;
+  }
+  .NavUserHeader {
+    overflow: hidden;
+    transition: height 1s;
+    -moz-transition: height 1s;
+    -webkit-transition: height 1s;
+    -o-transition: height 1s;
+    display: block !important;
+  }
+  .NavUser {
+    height: auto;
+  }
+  .leftSidebar {
+    display: none !important;
+  }
+}
+body {
+  background-color: black;
+  font-family: "ProximaNova-Light", sans-serif;
+  margin: 0px;
+  font-size: 14px;
+}
+.app {
+  max-width: 1380px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-flex;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+.NavUserHeader {
+  display: none;
+}
+.middletop {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-flex;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  -ms-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+.layoutContainerWrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+.leftSidebar {
+  -webkit-box-shadow: inset 0px -5px 10px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px -5px 10px 2px rgba(0, 0, 0, 0.15);
+  -webkit-flex: 0 0 265px;
+  flex: 0 0 265px;
+  background-color: #fff;
+  font-size: .9em;
+  padding-left: 20px;
+  -webkit-overflow-scrolling: touch;
+  -webkit-backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-transform .3s ease;
+  -moz-transition: -moz-transform .3s ease;
+  -o-transition: -o-transform .3s ease;
+  -ms-transition: -ms-transform .3s ease;
+  transition: transform .3s ease;
+}
+.home {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rightSidebar {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 0 0 207px!important;
+  flex: 0 0 211px!important;
+}
+.cartPreview:hover, .needHelp:hover, .Login:hover, .SignUp:hover {
+  background-color: #ec243b;
+  cursor: pointer;
+}
+input {
+  border: 0;
+  outline: 0;
+  margin: 0;
+  position: relative;
+  background: transparent;
+  font-size: 14px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 0;
+}
+:global(.ReactModal__Body--open) {
+  overflow: hidden;
+  :global(.navbarWelcome) {
+    height: 0 !important;
+  }
+}
+:global(*:focus) {
+    outline: none;
+}
+:global(.ReactModal__Body--open-no) {
+  overflow: hidden;
+}
+:global(button) {
+  background: transparent;
+  border: 0px;
+}
+.ViewCloseModalAccount button {
+  margin: 10px 0px 0px 10px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: none;
+}
+.ViewCloseModalAccount button i {
+  color: #F21848;
+}
+.bgLoginWeb {
+  height: 93vh;
+  background: url(http://img.umbala.vn/duong_cheo.png) no-repeat center;
+  background-size: cover;
+}
+.subCategory {
+  display: flex;
+}
+
+@media (min-width: 768px) and (max-width: 1190px) {
+  .leftSidebar {
+    display: none !important;
+  }
+  .rightSidebar {
+    display: none !important;
+  }
+  .layoutContainerWrapper {
+    margin: auto;
+    width: 768px;
+  }
+}
+/* ----- end */

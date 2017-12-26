@@ -1,0 +1,105 @@
+.BgCalendar {
+  background-color: #fff;
+}
+.week{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+.dayOuter{
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.dayInner{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-bottom-width: 3;
+  border-style: solid;
+  border-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.todayDayInner{
+  background-color: #ee4054;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.dayText{
+  text-align: right;
+}
+.dayWeekendText{
+  color: #BF360C;
+}
+.bar{
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.barText{
+  color: #424242;
+}
+.barButton{
+  background-color: #ee4054;
+  width: 30px;
+  height: 30px;
+  line-height: 35px;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.schadedText{
+  color: #AAAAAA;
+}
+.barButtonPrev {
+  margin-left: 10px;
+  margin-top: 10px;
+  /* ----- start */
+  cursor: pointer; 
+  /* ----- end */
+}
+.barButtonNext {
+  margin-right: 10px;
+  margin-top: 10px;
+  /* ----- start */
+  cursor: pointer;
+  /* ----- end */
+}
+.dayDistable {
+  color: #ccc;
+}
+.barYear {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.todayDaySpanInner {
+  color: #fff;
+}
+/* ----- start */
+.barButton i {
+  color: #fff;
+}
+.dayInner span {
+  display: block;
+  cursor: pointer;
+}
+.barYear {
+  text-align: center;
+}
+.dayInner {
+  width: auto;
+  height: auto;
+  padding: 8px;
+  cursor: pointer;
+}
+/* ----- end */

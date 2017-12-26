@@ -1,0 +1,88 @@
+@import '~theme/variables.scss';
+
+button {
+  background-color: #fff;
+  font-size: 16px;
+  border: none;
+  line-height: 24px;
+}
+
+.button, .btn {
+  display: inline-block;
+  cursor: pointer;
+  * {
+    user-select: none;
+  }
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.24;
+    & > * {
+      pointer-events: none;
+    }
+  }
+}
+
+.button {
+  &:active, &:focus {
+    background-color: $color-gray-extreme-light !important;
+  }
+}
+
+.btn {
+  &:hover {
+    opacity: 0.76;
+  }
+}
+
+.borderBtn {
+  font-size: 14px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 1px #000;
+  border-radius: 3px;
+  padding: 0 5px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 12px 3px;
+  font-size: 16px;
+  &:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.blackBtn {
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  cursor: pointer;
+  border: solid 1px #000;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 12px 3px;
+  font-size: 16px;
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.secondaryBtn {
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 3px 5px;
+  display: inline-block;
+  &:hover {
+    opacity: 0.87;
+  }
+}
+
+.flatBtn {
+  box-shadow: $flat-shadow;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  &:active, &:focus {
+    box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.38);
+  }
+}

@@ -1,0 +1,60 @@
+@import '~scss/base.scss';
+
+.square {
+  @extend %square;
+}
+
+.flatShadow {
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.12), 0px 1px 1px 0px rgba(0,0,0,0.24) !important;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  word-wrap: break-word;
+}
+
+.hoverableShadow:hover {
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.19), 0px 6px 3px 0px rgba(0,0,0,0.23) !important;
+}
+
+.flatBorder {
+  border: solid 0.5px rgba(0, 0, 0, 0.08);
+}
+
+.roundedBlueGrayBorder {
+  border-radius: 3px;
+  border: solid 1px #E1E8ED;
+}
+
+.roundedBlueGrayBorder:hover {
+  border: solid 1px #000;
+}
+
+.dashedBorder {
+  border: dashed 1px #929292;
+}
+.dashedBorder:hover {
+  border-color: #000;
+}
+
+.topRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.topRightAbsolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn-default{
+  border:none;
+  background-color: transparent;
+  font-family: ProximaNovaRegular;
+  padding: 10px;
+}
+.btn-confirm{
+  font-size:14px;
+  color:#007AFF;
+  letter-spacing:0.5px;
+  text-align:left;
+  text-transform: uppercase;
+}

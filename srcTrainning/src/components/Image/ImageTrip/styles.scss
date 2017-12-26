@@ -1,0 +1,29 @@
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ width: 140px;
+ height: 140px;
+ border: 1px solid;
+ border-radius: 4px;
+}
+
+.top{
+	flex: 1;
+	height: 50%;
+	&__1{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+}
+
+.bot{
+	flex: 1;
+	height: 50%;
+	&__2{
+
+	}
+}

@@ -1,0 +1,18 @@
+.tryAgain{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+},
+
+.tryAgain Div{
+	width: 150px;
+	align-self: center;
+	flex: 1;
+},
+
+.tryAgain Span{
+	text-align: center;
+	align-self: center;
+	margin-top: 10px;
+	color: red;
+}
